@@ -15,9 +15,15 @@ Install these packages into the environment
         $ conda install numpy
         $ conda install matplotlib
         $ conda install beautifulsoup4
+        $ conda install transformers
     ```
 
 Export the environment
     ```ruby
         $ conda env export > requirements.yaml
+    ```
+
+Inside VS Code terminal create an environment for requirements.yaml
+    ```ruby
+        $ conda create --name scraper --file requirements.yaml
     ```
